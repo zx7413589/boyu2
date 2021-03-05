@@ -1,0 +1,68 @@
+.el-button {
+    background: linear-gradient(to bottom, #ff7f41, #ff5b23) !important;
+    border: 0 !important;
+    margin-left: 0px !important;
+  }
+  .el-select .el-input.is-focus .el-input__inner {
+    border: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .el-input .el-input__inner{
+    border: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .el-input.is-active ,
+  .el-input__inner:focus {
+    border: none !important;
+  }
+  .el-input {
+    width: 504px !important;
+  }
+  .el-select {
+    font-size: 18px !important;
+    color: #999 !important;
+    height: 50px !important;
+    width: 504px !important;
+    border: none;
+  }
+  .el-input__inner {
+    height: 50px !important;
+  }
+  .el-scrollbar__view {
+    width: 504px !important;
+  }
+  .el-scrollbar {
+    height: 200px !important;
+  }
+  .el-select-dropdown__list{
+    height: 100px;
+    padding: 0 !important;
+  }
+  .el-scrollbar__wrap {
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+    height: inherit !important;
+  }
+  .el-select-dropdown__item.selected {
+    color: #ff5b23 !important ;
+  }
+  
+  .el-carousel__button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    margin: 10px;
+    position: relative;
+    bottom: 70px;
+    z-index: 1000;
+  }
+  .el-select-dropdown__item{
+    width: 504px !important;
+    overflow: inherit;
+    /* overflow-wrap: w; */
+  }
+  .el-option{
+    width: 504px !important;
+  }
